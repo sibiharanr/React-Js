@@ -1,5 +1,5 @@
 import './App.css';
-import Menu from './Menu';
+import MenuItem from './MenuItem';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       
- <Menu/>
+ <MenuItem/>
     </div>
   );
 }
