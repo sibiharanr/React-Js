@@ -1,13 +1,13 @@
 import './App.css';
-import MenuItem from './MenuItem';
-
-
+import Appbar from './Day 3/Appbar';
+import Image from './Day 3/Image';
 
 function App() {
   return (
-    <div className="App">
-      
- <MenuItem/>
+    <div >
+      <Appbar/>
+      <br></br>
+      <Image/>
     </div>
   );
 }
